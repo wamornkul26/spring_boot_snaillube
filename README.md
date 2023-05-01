@@ -8,7 +8,9 @@ This is the server component for 'Snail Lube,' a fictitious automotive oil chang
 4. Cancel the appointment.
 5. TBD
 
-The API stores data on MySQL database (in this case, AWS RDS Mysql).  
+The API stores data in MySQL database (in this case, AWS RDS Mysql).  
+
+Spring Boot and Spring Data JPA greatly accelerate API development, simplifying the data access layer and reducing the amount of code needed.
 
 ## Prerequisites: 
 - Spring Initializr 
