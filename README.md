@@ -17,12 +17,12 @@ The API stores data on MySQL database (in this case, AWS RDS Mysql).
 
 ## APPOINTMENT OBJECT
 The Appointment object contains the following fields:
-    - id = appointment id, create by database;
-    - name = customer name;
-    - phoneNumber = customer phone number;
-    - email = customer email;
-    - appointmentDate = appointment date; 
-    - timeslot = timeslot for the oil change, b/c Snail Lube is working slow, they only perform 8 oil changes per day;
+- id = appointment id, create by database;
+- name = customer name;
+- phoneNumber = customer phone number;
+- email = customer email;
+- appointmentDate = appointment date; 
+- timeslot = timeslot for the oil change, b/c Snail Lube is working slow, they only perform 8 oil changes per day;
 
 ## APIs
 1. GET ALL APPOINTMENTS
